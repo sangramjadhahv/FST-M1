@@ -1,7 +1,17 @@
-package fst_m1_java;
+package com.Activities.Activity1;
+
+
 
 public class Activity1 {
+    public static void main(String[] args) {
+    Car Honda =new Car();
+    Honda.make=2014;
+    Honda.color="Blue";
+    Honda.transmission="Automatic";
 
-    Car carName= new Car();
+    Honda.displayCharacteristics();
+    Honda.accelarate();
+    Honda.brake();
+}
 
 }
