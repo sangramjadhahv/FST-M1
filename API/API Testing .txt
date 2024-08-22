@@ -1,0 +1,24 @@
+API Testing 
+
+API doc: https://petstore.swagger.io/
+
+
+POST https://petstore.swagger.io/v2/pet
+GET https://petstore.swagger.io/v2/pet/findByStatus?status=sold
+DELETE https://petstore.swagger.io/v2/pet/{petId}
+
+
+
+MySQL Connector: https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-9.0.0.zip
+
+Host: db4free.net
+Port: 3306
+Username: fstm1db
+Password: 6Y6NowPybq
+Database name: fstm1db
+
+API Project Doc:
+https://docs.google.com/document/d/1wYLCF2WpJiPc4HMPip71G-arVjjhzJ-LB_jMq32q1qA/edit?usp=sharing 
+
+GitHub Api Doc:
+https://docs.google.com/document/d/1wYLCF2WpJiPc4HMPip71G-arVjjhzJ-LB_jMq32q1qA/edit?usp=sharing
