@@ -19,7 +19,8 @@ public class PactProviderTest {
 public void setup(PactVerificationContext context)
  {
 	 HttpTestTarget target= new HttpTestTarget("localhost", 8585);
-	context.setTarget(target);    
+	context.setTarget(target);   
+	 
 }
 
 @TestTemplate
