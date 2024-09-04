@@ -36,7 +36,7 @@ public class SpecificationTest {
     public void postRequest(){
         Map<String, Object> reqBody = new HashMap<>();
         reqBody.put("id", "2039");
-        reqBody.put("name", "Shifu");
+        reqBody.put("name", "Sangram");
         reqBody.put("status", "alive");
         Response response = given().spec(requestSpec).body(reqBody).when().post();
 
