@@ -46,8 +46,8 @@ public class Activity3 {
     public Object[][] petInfoProvider() {
       
         Object[][] testData = new Object[][]{
-                {77232, "Riley", "alive"},
-                {77233, "Hansel", "alive"}
+                {45232, "Omkar", "alive"},
+                {77233, "Kriti", "alive"}
         };
         return testData;
     }
