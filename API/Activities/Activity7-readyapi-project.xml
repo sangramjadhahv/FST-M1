@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="b4t4b2fb-d995-4cd5-atg0-c6c80877b656" created="3.53.0" activeEnvironment="Default environment" encryptionMode="Not encrypted" name="PetStore" projectVersion="" updated="3.53.0 2024-05-13T12:06:25Z" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="ffgt4b2fb-d995-4cd5-atg0-c6c80877b656" created="3.53.0" activeEnvironment="Default environment" encryptionMode="Not encrypted" name="PetStore" projectVersion="" updated="3.53.0 2024-05-13T12:06:25Z" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
   <con:interface xsi:type="con:RestService" id="0tgrf1bc-addb-4840-965t8-f7e5dde9b26c" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://petstore.swagger.io" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-    <con:settings id="56t648a-be39-47c5-a166-9fb6bcb63f4e"/>
+    <con:settings id="g5t648a-be39-47c5-a166-9fb6bcb63f4e"/>
     <con:definitionCache type="TEXT" rootPart=""/>
     <con:endpoints>
       <con:endpoint>https://petstore.swagger.io</con:endpoint>
     </con:endpoints>
-    <con:resource name="Pet" path="/v2/pet" id="af9068b4-e26d-4631-908b-3b49c0f33547">
+    <con:resource name="Pet" path="/v2/pet" id="yhte068b4-e26d-4631-908b-3b49c0f33547">
       <con:settings/>
       <con:parameters/>
-      <con:method name="Pet" id="9d0472ab-52a5-406b-a4dc-9fae5f7674a8" method="POST">
+      <con:method name="Pet" id="56ggt2ab-52a5-406b-a4dc-9fae5f7674a8" method="POST">
         <con:settings/>
         <con:parameters/>
         <con:representation type="REQUEST">
@@ -23,13 +23,7 @@
           <con:params/>
           <con:element xmlns:pet="https://petstore.swagger.io/v2/pet">pet:Response</con:element>
         </con:representation>
-        <con:representation type="FAULT">
-          <con:mediaType>application/json</con:mediaType>
-          <con:status>400</con:status>
-          <con:params/>
-          <con:element xmlns:pet="https://petstore.swagger.io/v2/pet">pet:Fault</con:element>
-        </con:representation>
-        <con:request name="Request 1" id="7232004f-d332-442d-8e5f-744b1166a56c" mediaType="application/json">
+        <con:request name="Request 1" id="7e32004f-d332-442d-8e5f-744b1166a56c" mediaType="application/json">
           <con:settings/>
           <con:endpoint>https://petstore.swagger.io</con:endpoint>
           <con:credentials>
@@ -43,7 +37,7 @@
     <con:resource name="FindByStatus" path="/v2/pet/findByStatus" id="59c14f29-fdd9-4b9d-a1c5-35a5b6244bd2">
       <con:settings/>
       <con:parameters/>
-      <con:method name="FindByStatus" id="931fca42-2fae-468c-83ed-e78a943b8606" method="GET">
+      <con:method name="FindByStatus" id="971fca42-2fae-468c-83ed-e78a943b8606" method="GET">
         <con:settings/>
         <con:parameters>
           <con:parameter required="true">
@@ -61,7 +55,7 @@
           <con:params/>
           <con:element>Response</con:element>
         </con:representation>
-        <con:request name="Request 1" id="2788cb75-f5d8-4636-9bc6-21f7784cbe2b" mediaType="application/json">
+        <con:request name="Request 1" id="rtg88cb75-f5d8-4636-9bc6-21f7784cbe2b" mediaType="application/json">
           <con:settings/>
           <con:endpoint>https://petstore.swagger.io</con:endpoint>
           <con:credentials>
@@ -80,7 +74,7 @@
     <con:resource name="PetId" path="/v2/pet/{petId}" id="058007c3-7dab-4b53-be41-cb2c21f52d0c">
       <con:settings/>
       <con:parameters/>
-      <con:method name="PetId" id="e9807a97-45e0-4ebd-b524-cdc9b448e044" method="DELETE">
+      <con:method name="PetId" id="et6y07a97-45e0-4ebd-b524-cdc9b448e044" method="DELETE">
         <con:settings/>
         <con:parameters>
           <con:parameter required="true">
@@ -119,8 +113,8 @@
       </con:method>
     </con:resource>
   </con:interface>
-  <con:testSuite id="3ca0b318-9bdf-49a8-adc5-10b683438185" name="https://petstore.swagger.io Test Suite">
-    <con:settings id="bbcfd449-c68c-4792-b9d0-0f0a1517f80e"/>
+  <con:testSuite id="7juca0b318-9bdf-49a8-adc5-10b683438185" name="https://petstore.swagger.io Test Suite">
+    <con:settings id="bkcfd449-c68c-4792-b9d0-0f0a1517f80e"/>
     <con:runType>SEQUENTIAL</con:runType>
     <con:testCase id="544dfe4b-e55b-4cfe-a06a-3320577b3dcf" discardOkResults="false" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="Test Case" searchProperties="true" timeout="0">
       <con:settings/>
